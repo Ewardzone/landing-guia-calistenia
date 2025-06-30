@@ -1,0 +1,58 @@
+import styled from "styled-components";
+
+export const ContactContainer = styled.div`
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 1.5rem;
+  flex-direction: column;
+
+  h2 {
+    color: #d17e16;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 4vw;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-top: 1rem;
+  }
+`;
+
+export const ContactSection = styled.div`
+  display: flex;
+  justify-content: space-around;
+`;
+
+export const ContactCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 22vw;
+  height: 27vw;
+  background-color: #300101;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+  &:hover {
+    filter: brightness(0.85);
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 0px 0 #b35f12;
+  }
+  img {
+    height: auto;
+    width: 15vw;
+  }
+  h4 {
+    color: #cccccc;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    font-size: 3vw;
+    letter-spacing: 2;
+    line-height: 1.1;
+    margin: 1vw 0.5vw;
+  }
+`;
