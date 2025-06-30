@@ -4,9 +4,9 @@ import {
   BenefitsContainer,
   BenefitsSection,
 } from "./benefitsStyles";
-import brain from "/Users/Eduardo Reynoso/Desktop/mi-landing/src/assets/cerebro.png";
-import puzzle from "/Users/Eduardo Reynoso/Desktop/mi-landing/src/assets/puzzle.png";
-import progreso from "/Users/Eduardo Reynoso/Desktop/mi-landing/src/assets/progreso.png";
+import brain from "../../assets/cerebro.png";
+import puzzle from "/../../assets/puzzle.png";
+import progreso from "/../../assets/progreso.png";
 
 const Benefits = () => {
   return (
