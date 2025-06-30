@@ -5,8 +5,8 @@ import {
   BenefitsSection,
 } from "./benefitsStyles";
 import brain from "../../assets/cerebro.png";
-import puzzle from "/../../assets/puzzle.png";
-import progreso from "/../../assets/progreso.png";
+import puzzle from "../../assets/puzzle.png";
+import progreso from "../../assets/progreso.png";
 
 const Benefits = () => {
   return (
