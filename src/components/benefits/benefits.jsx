@@ -12,7 +12,7 @@ const Benefits = () => {
         <h2>Beneficios de la guía de calistenia</h2>
         <BenefitsSection>
           <BenefitsCard>
-            <img src="/assets/brain.png" alt="" />
+            <img src="/assets/cerebro.png" alt="" />
             <h4>Enfoque filosófico para entrenar con propósito</h4>
           </BenefitsCard>
           <BenefitsCard>
