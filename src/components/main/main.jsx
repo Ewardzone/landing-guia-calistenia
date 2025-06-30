@@ -1,6 +1,6 @@
 import { MainButton, MainContainer, MainSection } from "../main/mainstyles";
-import logo from "/src/assets/logocalistenia.png";
-import guia from "../../assets/GuiaCalisteniaGratuitaEduardoReinoso.pdf";
+import logo from "../../../public/assets/logocalistenia.png";
+import guia from "../../../public/assets/GuiaCalisteniaGratuitaEduardoReinoso.pdf";
 const Main = () => {
   return (
     <MainContainer>

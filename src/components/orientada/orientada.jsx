@@ -5,9 +5,9 @@ import {
   OrientadaSection,
 } from "./orientadaStyles";
 
-import ninos from "../../assets/ninos.png";
-import adultos from "../../assets/adultos.png";
-import profes from "../../assets/profes.png";
+import ninos from "../../../public/assets/ninos.png";
+import adultos from "../../../public/assets/adultos.png";
+import profes from "../../../public/assets/profes.png";
 
 const Orientada = () => {
   return (

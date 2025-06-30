@@ -3,10 +3,7 @@ import {
   BenefitsCard,
   BenefitsContainer,
   BenefitsSection,
-} from "./benefitsStyles";
-import brain from "../../assets/cerebro.png";
-import puzzle from "../../assets/puzzle.png";
-import progreso from "../../assets/progreso.png";
+} from "../benefits/benefitsStyles";
 
 const Benefits = () => {
   return (
@@ -15,15 +12,15 @@ const Benefits = () => {
         <h2>Beneficios de la guía de calistenia</h2>
         <BenefitsSection>
           <BenefitsCard>
-            <img src={brain} alt="" />
+            <img src="/assets/brain.png" alt="" />
             <h4>Enfoque filosófico para entrenar con propósito</h4>
           </BenefitsCard>
           <BenefitsCard>
-            <img src={puzzle} alt="" />
+            <img src="/assets/puzzle.png" alt="" />
             <h4>Imágenes y explicaciones de las técnicas correctas</h4>
           </BenefitsCard>
           <BenefitsCard>
-            <img src={progreso} alt="" />
+            <img src="/assets/progreso.png" alt="" />
             <h4>Métodos para progresar sin frustraciones</h4>
           </BenefitsCard>
         </BenefitsSection>

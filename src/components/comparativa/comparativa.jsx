@@ -1,6 +1,6 @@
 import React from "react";
 import { ComparativaContainer } from "./comparativaStyles";
-import tabla from "./../../assets/tabla.png";
+import tabla from "../../../public/assets/tabla.png";
 
 const Comparativa = () => {
   return (

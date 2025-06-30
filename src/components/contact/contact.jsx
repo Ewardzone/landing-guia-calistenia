@@ -1,9 +1,9 @@
 import React from "react";
 import { ContactCard, ContactContainer, ContactSection } from "./contactStyles";
-import instagram from "../../assets/instagram.png";
-import facebook from "../../assets/facebook.png";
-import youtube from "../../assets/youtube.png";
-import gmail from "../../assets/gmail.png";
+import instagram from "../../../public/assets/instagram.png";
+import facebook from "../../../public/assets/facebook.png";
+import youtube from "../../../public/assets/youtube.png";
+import gmail from "../../../public/assets/gmail.png";
 const Contact = () => {
   return (
     <>

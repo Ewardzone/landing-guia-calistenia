@@ -1,6 +1,6 @@
 import React from "react";
-import { WhatsappStyles } from "./whatsappStyles";
-import whatsapp from "../../assets/whatsapp.png";
+import { WhatsappStyles } from "../whatsapp/whatsappStyles";
+import whatsapp from "../../../public/assets/whatsapp.png";
 
 const Whatsapp = () => {
   return (
