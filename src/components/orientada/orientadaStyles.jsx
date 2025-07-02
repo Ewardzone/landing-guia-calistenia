@@ -44,7 +44,7 @@ export const OrientadaCard = styled.div`
     color: #400202;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2.5vw;
     letter-spacing: 2;
     line-height: 1.1;
     margin: 0 0.5vw;

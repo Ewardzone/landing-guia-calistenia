@@ -26,8 +26,8 @@ export const ContactSection = styled.div`
 export const ContactCard = styled.div`
   display: flex;
   flex-direction: column;
-  width: 22vw;
-  height: 27vw;
+  width: 15vw;
+  height: 15vw;
   background-color: #300101;
   align-items: center;
   justify-content: center;
@@ -44,7 +44,7 @@ export const ContactCard = styled.div`
   }
   img {
     height: auto;
-    width: 15vw;
+    width: 10vw;
   }
   h4 {
     color: #cccccc;

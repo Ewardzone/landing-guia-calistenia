@@ -17,11 +17,11 @@ const Orientada = () => {
         <OrientadaSection>
           <OrientadaCard>
             <img src={ninos} alt="" />
-            <h4>Niños y adolescentes a partir de 10 años</h4>
+            <h4>Para el desarrollo de tus hijos mayores a partir de 10 años</h4>
           </OrientadaCard>
           <OrientadaCard>
             <img src={adultos} alt="" />
-            <h4>Adultos que quieran empezar en calistenia</h4>
+            <h4>Adultos que quieren empezar a entrenar calistenia</h4>
           </OrientadaCard>
           <OrientadaCard>
             <img src={profes} alt="" />

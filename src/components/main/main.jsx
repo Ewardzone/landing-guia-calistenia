@@ -14,9 +14,11 @@ const Main = () => {
             Descargar versión gratuita
           </MainButton>
         </a>
-        <MainButton style={{ backgroundColor: "#d17e16", color: "#920606" }}>
-          Descargar versión completa
-        </MainButton>
+        <a href="https://pay.hotmart.com/U100579317M" target="blank">
+          <MainButton style={{ backgroundColor: "#d17e16", color: "#920606" }}>
+            Descargar versión completa
+          </MainButton>
+        </a>
       </MainSection>
     </MainContainer>
   );
