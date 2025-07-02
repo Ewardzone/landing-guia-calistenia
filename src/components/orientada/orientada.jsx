@@ -17,7 +17,7 @@ const Orientada = () => {
         <OrientadaSection>
           <OrientadaCard>
             <img src={ninos} alt="" />
-            <h4>Para el desarrollo de tus hijos mayores a partir de 10 años</h4>
+            <h4>Para el desarrollo de tus hijos a partir de 10 años</h4>
           </OrientadaCard>
           <OrientadaCard>
             <img src={adultos} alt="" />
