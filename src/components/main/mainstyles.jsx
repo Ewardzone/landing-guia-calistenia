@@ -17,6 +17,17 @@ export const MainContainer = styled.div`
     margin-left: 43vw;
     filter: drop-shadow(1px 2px 6px rgba(0, 0, 0, 0.8));
   }
+  @media (min-width: 768px) {
+    img {
+      width: 25vw;
+    }
+  }
+  @media (min-width: 1024px) {
+    img {
+      margin-left: 40rem;
+      width: 20rem;
+    }
+  }
 `;
 
 export const MainSection = styled.div`
@@ -32,6 +43,12 @@ export const MainSection = styled.div`
     letter-spacing: 0;
     line-height: 1;
     text-shadow: 2px 2px 2px black;
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 7vw;
+    }
   }
 `;
 
