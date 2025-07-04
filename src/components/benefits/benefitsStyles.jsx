@@ -15,6 +15,12 @@ export const BenefitsContainer = styled.div`
     letter-spacing: 0;
     line-height: 1;
     margin-top: 1rem;
+    @media (min-width: 768px) {
+      font-size: 3vw;
+    }
+    @media (min-width: 1024px) {
+      font-size: 2vw;
+    }
   }
 `;
 
@@ -27,14 +33,28 @@ export const BenefitsCard = styled.div`
   display: flex;
   flex-direction: column;
   width: 27vw;
+  height: fit-content;
   background-color: #6c0606;
-
   border-radius: 10px;
+  @media (min-width: 768px) {
+    width: 25vw;
+  }
+  @media (min-width: 1024px) {
+    width: 20vw;
+  }
 
   img {
     height: 27vw;
     width: auto;
     filter: brightness(1.5);
+    @media (min-width: 768px) {
+      height: 15vw;
+      width: auto;
+    }
+    @media (min-width: 1024px) {
+      height: 15vw;
+      width: auto;
+    }
   }
   h4 {
     color: #cccccc;
@@ -43,5 +63,11 @@ export const BenefitsCard = styled.div`
     font-size: 3vw;
     letter-spacing: 2;
     line-height: 1.1;
+    @media (min-width: 768px) {
+      font-size: 1.5vw;
+    }
+    @media (min-width: 1024px) {
+      font-size: 1vw;
+    }
   }
 `;

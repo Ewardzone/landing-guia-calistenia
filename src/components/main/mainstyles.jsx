@@ -16,16 +16,13 @@ export const MainContainer = styled.div`
     padding-top: 2rem;
     margin-left: 43vw;
     filter: drop-shadow(1px 2px 6px rgba(0, 0, 0, 0.8));
-  }
-  @media (min-width: 768px) {
-    img {
+
+    @media (min-width: 768px) {
       width: 25vw;
     }
-  }
-  @media (min-width: 1024px) {
-    img {
-      margin-left: 40rem;
-      width: 20rem;
+    @media (min-width: 1024px) {
+      margin-left: 60vw;
+      width: 20vw;
     }
   }
 `;
@@ -43,11 +40,13 @@ export const MainSection = styled.div`
     letter-spacing: 0;
     line-height: 1;
     text-shadow: 2px 2px 2px black;
-  }
 
-  @media (min-width: 768px) {
-    h2 {
+    @media (min-width: 768px) {
       font-size: 7vw;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 5rem;
     }
   }
 `;
@@ -69,5 +68,14 @@ export const MainButton = styled.button`
   &:active {
     transform: translateY(2px);
     box-shadow: 0 0px 0 #b35f12;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+    width: fit-content;
+  }
+  @media (min-width: 1024px) {
+    font-size: 1.5rem;
+    width: fit-content;
   }
 `;

@@ -15,6 +15,12 @@ export const ContactContainer = styled.div`
     letter-spacing: 0;
     line-height: 1;
     margin-top: 1rem;
+    @media (min-width: 768px) {
+      font-size: 3vw;
+    }
+    @media (min-width: 1024px) {
+      font-size: 2vw;
+    }
   }
 `;
 
@@ -33,6 +39,14 @@ export const ContactCard = styled.div`
   justify-content: center;
   border-radius: 10px;
   cursor: pointer;
+  @media (min-width: 768px) {
+    width: 8vw;
+    height: 8vw;
+  }
+  @media (min-width: 1024px) {
+    width: 6vw;
+    height: 6vw;
+  }
   transition: filter 0.3s ease;
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
   &:hover {
@@ -45,6 +59,12 @@ export const ContactCard = styled.div`
   img {
     height: auto;
     width: 10vw;
+    @media (min-width: 768px) {
+      width: 5vw;
+    }
+    @media (min-width: 1024px) {
+      width: 5vw;
+    }
   }
   h4 {
     color: #cccccc;
